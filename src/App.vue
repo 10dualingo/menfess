@@ -1,7 +1,7 @@
 <template>
   <div
     id="app"
-    class="min-h-screen min-w-full justify-center flex bg-gray-100 text-gray-800 dark:bg-gray-900 dark:text-gray-200"
+    class="min-h-screen min-w-full justify-center flex bg-[#0c0f14] text-white"
   >
     <router-view v-slot="{ Component }">
       <transition name="fade" mode="out-in">
