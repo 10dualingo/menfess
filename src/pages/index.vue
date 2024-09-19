@@ -19,14 +19,14 @@ const character = characters[Math.floor(Math.random() * characters.length)];
 async function send(i: string) {
   try {
     await fetch(
-      `https://api.telegram.org/bot${import.meta.env.VITE_BOT_TOKEN}/sendMessage`,
+      `https://api.telegram.org/bot${import.meta.env.VITE_TELEGRAM_BOT_TOKEN}/sendMessage`,
       {
         headers: {
           "Content-Type": "application/json",
         },
         method: "POST",
         body: JSON.stringify({
-          chat_id: import.meta.env.VITE_CHAT_ID,
+          chat_id: import.meta.env.VITE_TELEGRAM_CHAT_ID,
           text: i.trim(),
           disable_notification: false,
         }),
