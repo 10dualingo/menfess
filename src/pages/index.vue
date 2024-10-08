@@ -89,7 +89,7 @@ export default {
       <p class="text-gray-500">Pesan Anda dikirim secara anonim.</p>
       <router-link
         to="/kebijakan-privasi"
-        class="underline text-blue-600 hover:text-blue-500 active:text-blue-700 focus:outline-blue-600 transition"
+        class="underline text-blue-500 hover:text-blue-400 active:text-blue-600 focus:outline-blue-500 transition"
         >Kebijakan privasi</router-link
       >
     </div>
