@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { ref } from "vue";
 import { useRouter } from "vue-router";
 
 const router = useRouter();
@@ -15,8 +16,11 @@ const characters = [
 ];
 
 const character = characters[Math.floor(Math.random() * characters.length)];
+const sendButtonDisabled = ref(false);
 
 async function send(i: string) {
+  sendButtonDisabled.value = true;
+
   try {
     await fetch(
       `https://api.telegram.org/bot${import.meta.env.VITE_TELEGRAM_BOT_TOKEN}/sendMessage`,
@@ -32,7 +36,6 @@ async function send(i: string) {
         }),
       }
     );
-
     router.push("/submitted");
   } catch (error) {
     console.log(error);
@@ -73,7 +76,7 @@ export default {
           </label>
         </div>
         <button
-          :disabled="message.trim().length === 0"
+          :disabled="message.trim().length === 0 || sendButtonDisabled === true"
           @click="send(String(message))"
           class="disabled:text-gray-400 disabled:hover:text-gray-400 text-blue-400 hover:text-blue-300 active:text-blue-500 focus:outline-blue-400 transition ml-auto rounded-full flex flex-row text-lg"
         >
