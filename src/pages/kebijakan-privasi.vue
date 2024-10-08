@@ -1,6 +1,15 @@
+<script setup lang="ts">
+import IconArrowLeft from "virtual:icons/mdi/arrow-left";
+</script>
+
 <template>
   <main class="w-[40rem] px-6 py-12 text-left flex flex-col gap-y-2">
-    <h1 class="text-2xl font-bold">Kebijakan Privasi</h1>
+    <router-link
+      to="/"
+      class="underline text-gray-400 hover:text-gray-300 gap-x-1 active:text-gray-500 focus:outline-gray-400 transition inline-flex"
+      ><IconArrowLeft class="my-auto" /> Balik ke menfess...</router-link
+    >
+    <h1 class="text-2xl font-bold mt-4">Kebijakan Privasi</h1>
     <p class="text-gray-400">Efektif dari tanggal 08 Oktober 2024.</p>
     <p class="text-gray-400">
       Pada Kelas 10.2, privasi Anda adalah prioritas utama kami. Kami
