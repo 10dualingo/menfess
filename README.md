@@ -1,17 +1,20 @@
-# vue-template
-a clean template for your vue projects, featuring tailwindcss and a pages directory
+# menfess
+custom built, simple, minimalistic anonymous messaging system built for 10.2, class of 2024/25.
 
-## does this even need a readme?
-that's pretty much it, a simple vue template, featuring tailwindcss and vite-plugin-pages
+this concept is heavily based on [ngl.link](https://ngl.link), and is popularised by multiple classes from various different schools in Indonesia.
 
-### tailwindcss
-tailwindcss handles your styling and works alongside postcss, recommended to use tailwindcss intellisense and prettier
+> why fit into the norm when you can be different? (and build your own ngl.link themed around your own class)
 
-### vite-plugin-pages
-handles all routing in the `/pages` directory, so you don't have to. say goodbye to manual routing!
+## tech stack
+- Vue 3
+- Tailwind CSS
+- Unplugin Icons + Iconify + Icones.js
+- Vite
 
-## recommended ide setup:
-### visual studio code
-* prettier
-* tailwindcss intellisense
-* volar
+## contributing to this project
+if you find any bugs, please report them to the issues tab. if you'd like to propose a fix for a bug or a new feature, feel free to create a fork and make a pull request; we'll be happy to check it out :)
+
+## licensing
+this code is open sourced and licensed under the MIT license.
+
+all assets belong to their respective owners.
