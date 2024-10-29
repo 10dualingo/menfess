@@ -1,4 +1,4 @@
-import "@/assets/styles/tailwind.css";
+import "./assets/styles/tailwind.css";
 import "@fontsource/nunito";
 
 import { createApp } from "vue";
