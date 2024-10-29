@@ -17,7 +17,7 @@ import IconArrowLeft from "virtual:icons/mdi/arrow-left";
       mengirim dan menerima pesan. Kebijakan Privasi ini menjelaskan bagaimana
       kami menangani data Anda untuk memastikan privasi Anda terlindungi.
     </p>
-    <h2 class="text-xl font-bold mt-4">I. Pegumpulan Informasi</h2>
+    <h2 class="text-xl font-bold mt-4">I. Pengumpulan Informasi</h2>
     <p class="text-gray-400">
       Kami tidak mengumpulkan informasi yang dapat digunakan untuk
       mengidentifikasi pengguna. Kami berjanji untuk tidak mengumpulkan,
