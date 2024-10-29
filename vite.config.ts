@@ -15,6 +15,10 @@ export default defineConfig({
     routes({ pagesDir: path.resolve(__dirname, "src/pages") }),
   ],
 
+  build: {
+    target: "es6",
+  },
+
   server: {
     port: 3000,
   },
