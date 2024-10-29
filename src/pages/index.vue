@@ -60,7 +60,7 @@ export default {
       <img
         :src="`/characters/${character}.png`"
         alt=""
-        class="h-44 md:h-56 w-min ml-3 md:ml-6"
+        class="h-44 md:h-56 ml-3 md:ml-6"
       />
       <div class="mb-3 w-full flex-col flex gap-y-2">
         <div
