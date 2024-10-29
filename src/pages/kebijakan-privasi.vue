@@ -10,22 +10,19 @@ import IconArrowLeft from "virtual:icons/mdi/arrow-left";
       ><IconArrowLeft class="my-auto" /> Balik ke menfess...</router-link
     >
     <h1 class="text-2xl font-bold mt-4">Kebijakan Privasi</h1>
-    <p class="text-gray-400">Efektif dari tanggal 08 Oktober 2024.</p>
+    <p class="text-gray-400">Efektif dari tanggal 29 Oktober 2024.</p>
     <p class="text-gray-400">
       Pada Kelas 10.2, privasi Anda adalah prioritas utama kami. Kami
       berkomitmen untuk menyediakan platform yang anonim bagi pengguna untuk
       mengirim dan menerima pesan. Kebijakan Privasi ini menjelaskan bagaimana
       kami menangani data Anda untuk memastikan privasi Anda terlindungi.
     </p>
-    <h2 class="text-xl font-bold mt-4">
-      I. Tidak Mengumpulkan Informasi yang Dapat Mengidentifikasi Pengguna
-    </h2>
+    <h2 class="text-xl font-bold mt-4">I. Pegumpulan Informasi</h2>
     <p class="text-gray-400">
-      Menfess 10.2 tidak mengumpulkan dan tidak akan mengumpulkan informasi yang
-      dapat digunakan untuk mengidentifikasi pengguna. Kami berjanji untuk tidak
-      mengumpulkan, menyimpan, atau memproses nama, alamat email, nomor telepon,
-      data lokasi, atau informasi pribadi lainnya. Privasi Anda adalah komitmen
-      kami.
+      Kami tidak mengumpulkan informasi yang dapat digunakan untuk
+      mengidentifikasi pengguna. Kami berjanji untuk tidak mengumpulkan,
+      menyimpan, atau memproses nama, alamat email, nomor telepon, data lokasi,
+      atau informasi pribadi lainnya. Privasi Anda adalah komitmen kami.
     </p>
     <h2 class="text-xl font-bold mt-4">II. Pemrosesan Pesan</h2>
     <p class="text-gray-400">
@@ -34,21 +31,20 @@ import IconArrowLeft from "virtual:icons/mdi/arrow-left";
       dan menyimpan konten pesan tersebut hanya untuk memfasilitasi
       pengirimannya ke penerima yang dituju.
     </p>
-    <h2 class="text-xl font-bold mt-4">III. Tanpa Pelacakan atau Analitik</h2>
+    <h2 class="text-xl font-bold mt-4">III. Pelacakan dan Analitik</h2>
     <p class="text-gray-400">
       Kami tidak menggunakan bentuk pelacakan, cookies, atau layanan analitik
-      apa pun yang dapat mengumpulkan data perilaku pengguna atau informasi
+      apapun yang dapat mengumpulkan data perilaku pengguna atau informasi
       pribadi. Aktivitas Anda di platform kami sepenuhnya anonim, dan tidak ada
       kebiasaan atau pola penelusuran yang dipantau.
     </p>
     <h2 class="text-xl font-bold mt-4">IV. Layanan Pihak Ketiga</h2>
     <p class="text-gray-400">
-      Menfess 10.2 tidak menggunakan layanan pihak ketiga yang dapat
-      mengumpulkan atau memproses data tentang Anda. Kami mengoperasikan
-      platform kami secara independen, memastikan bahwa data Anda aman dan
-      terjaga privasinya.
+      Kami tidak menggunakan layanan pihak ketiga yang dapat mengumpulkan atau
+      memproses data tentang Anda. Kami mengoperasikan platform kami secara
+      independen, memastikan bahwa data Anda aman dan terjaga privasinya.
     </p>
-    <h2 class="text-xl font-bold mt-4">V. Layanan Pihak Ketiga</h2>
+    <h2 class="text-xl font-bold mt-4">V. Perbaruan Kebijakan Privasi</h2>
     <p class="text-gray-400">
       Kami dapat memperbarui Kebijakan Privasi ini dari waktu ke waktu. Setiap
       perubahan akan tercermin di halaman ini dengan "Tanggal Efektif" yang
